@@ -19,7 +19,7 @@ const EditStyle = styled.div`
          color: #fa923f;
          cursor: pointer;
          outline: none;
-         &:hover,&:active{
+         &:hover, &:active{
              color: #521751;
          }
      }

@@ -8,5 +8,31 @@ const BlogStyle = styled.section`
     width: 80%;
 `;
 
+const NavigationStyle = styled.nav`
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        li {
+            display: inline-block;
+            margin: 20px;
 
-export default BlogStyle;
+           a {
+               color: #000000;
+               text-decoration: none;
+               &:hover, &:active {
+                   color: #fa923f;
+              }
+              &.bbong, &.active{
+                color: #fa923f;
+              }
+           } 
+           
+        }
+    }
+
+`;
+
+export { NavigationStyle, BlogStyle };

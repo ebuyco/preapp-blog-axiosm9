@@ -7,7 +7,7 @@ const PostStyle = styled.div`
    cursor: pointer;
    padding: 16px;
    text-align: center;
-   width: 100px;
+   width: 25%;
     &:hover{
         background-color: #C0DDF5;
         &:active {
